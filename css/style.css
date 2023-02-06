@@ -64,6 +64,49 @@ section {
     background-color: var(--bg--styling1);
 }
 
+.scroll-button {
+    display: none;
+    background-color: var(--style--color);
+    border-radius: 20px;
+    color: #000;
+    border: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px 10px;
+    z-index: 99;
+    transition: all 0.3s ease;
+ }
+
+ .scroll-button:hover {
+    background-color: #ab931b;
+    cursor: pointer;
+ }
+ 
+ .scroll-button span {
+     display: block;
+ }
+
+ /* .hero-image button {
+    padding: .6rem 1.7rem;
+    border-radius: 20px;
+    background-color: var(--style--color);
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    transform: translate(140%, 0);
+    transition: all 0.3s ease;
+}
+
+.hero-image button:hover {
+    background-color: #ab931b;
+    cursor: pointer;
+} */
+
 /* the hero image */
 /* 
 header {
